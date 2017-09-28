@@ -176,7 +176,7 @@ gulp.task('serve', ['scss', 'jsWeb'], function() {
     }
   });
   gulp.watch('src/assets/_pre/sass/**/*.scss', ['scss']);
-  gulp.watch('src/assets/_pre/js/web/**/*.js', ['jsWeb']);
+  gulp.watch('src/assets/_pre/js/**/*.js', ['jsWeb']);
   gulp.watch('src/*.html').on('change', browserSync.reload);
 });
 
