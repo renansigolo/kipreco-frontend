@@ -1,0 +1,19 @@
+/* Variables
+ * ===============
+ *
+ * All variables and most of the configuration is defined on this page. */
+
+/* Colors */
+
+$live-white: #ecf0f1;
+$live-red: #e74c3c;
+$live-blue: #3498db;
+$live-black: #404041;
+$live-alternative: #2c3e50;
+$live-red-transparent: rgba($live-red, 0.55);
+$live-blue-transparent: rgba($live-blue, 0.55);
+
+/* Typography */
+
+$font-color-light: #fff;
+$font-color-dark: $live-black;
