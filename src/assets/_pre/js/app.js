@@ -7,6 +7,7 @@ console.log(`Angular Module Initialized`);
 app.controller('LoginController', loginController);
 app.controller('SignupController', signupController);
 app.controller('HomeController', homeController);
+app.controller('ProductsController', productsController);
 
 //Declara as configuracoes das Rotas
 app.config(routes);

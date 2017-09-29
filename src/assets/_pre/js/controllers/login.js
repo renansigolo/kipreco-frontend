@@ -5,7 +5,7 @@ function loginController($scope, $state, $window, $http) {
   $scope.data = {};
   $scope.meuPost = meuPost;
 
-  var api = $http.get('http://54.232.215.109:3000').then(successCallback, errorCallback);
+  var api = $http.get('http://localhost:3003').then(successCallback, errorCallback);
 
   function successCallback(retorno) {
     $scope.data.email = retorno.data.email;
@@ -14,13 +14,13 @@ function loginController($scope, $state, $window, $http) {
 
   function errorCallback() {
     console.log('OPs');
-
   }
 
   function meuPost() {
-    $http.post('http://54.232.215.109:3000', $scope.data).then(successCallback, errorCallback);
+    $http.post('http://localhost:3003/', $scope.data).then(successCallback, errorCallback);
 
     function successCallback(data) {
+      $state.go('home');
       console.log('FUNCIONOUUUU!');
       console.log(data);
     }
@@ -32,3 +32,5 @@ function loginController($scope, $state, $window, $http) {
   }
 
 }
+
+// Server adress http://54.232.215.109:3000

@@ -19,5 +19,11 @@ function routes($stateProvider, $urlRouterProvider) {
     url: '/home'
   });
 
+  $stateProvider.state('products', {
+    templateUrl: 'templates/products.html',
+    controller: 'ProductsController',
+    url: '/products'
+  });
+
   $urlRouterProvider.otherwise('/login');
 }
