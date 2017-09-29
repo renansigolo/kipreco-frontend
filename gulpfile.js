@@ -177,7 +177,7 @@ gulp.task('serve', ['scss', 'jsWeb'], function() {
   });
   gulp.watch('src/assets/_pre/sass/**/*.scss', ['scss']);
   gulp.watch('src/assets/_pre/js/**/*.js', ['jsWeb']);
-  gulp.watch('src/*.html').on('change', browserSync.reload);
+  gulp.watch('src/**/*.html').on('change', browserSync.reload);
 });
 
 // Static server for debugging
@@ -189,7 +189,7 @@ gulp.task('serveDebug', ['scss', 'jsDebug'], function() {
   });
   gulp.watch('src/assets/_pre/sass/**/*.scss', ['scss']);
   gulp.watch('src/assets/_pre/js/web/**/*.js', ['jsDebug']);
-  gulp.watch('src/*.html').on('change', browserSync.reload);
+  gulp.watch('src/**/*.html').on('change', browserSync.reload);
 });
 
 //Watch task
