@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.kipreco.com.br/</loc>
-        <lastmod>2017-09-28T19:12:23.118Z</lastmod>
+        <lastmod>2017-09-29T04:06:43.320Z</lastmod>
     </url>
     <url>
         <loc>https://www.kipreco.com.br/templates/login.html</loc>
-        <lastmod>2017-09-28T23:53:29.617Z</lastmod>
+        <lastmod>2017-09-29T15:28:54.969Z</lastmod>
+    </url>
+    <url>
+        <loc>https://www.kipreco.com.br/templates/signup.html</loc>
+        <lastmod>2017-09-29T15:30:03.307Z</lastmod>
     </url>
 </urlset>

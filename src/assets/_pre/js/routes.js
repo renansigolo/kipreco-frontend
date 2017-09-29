@@ -6,6 +6,11 @@ function routes($stateProvider, $urlRouterProvider) {
     controller: 'LoginController',
     url: '/login'
   });
+  $stateProvider.state('signup', {
+    templateUrl: 'templates/signup.html',
+    controller: 'SignupController',
+    url: '/signup'
+  });
 
   $urlRouterProvider.otherwise('/login');
 }
