@@ -101,14 +101,14 @@ gulp.task('htmlmin', function() {
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist/'));
 });
 
 //Create sitemap.xml
 gulp.task('sitemap', function() {
   gulp.src('src/**/*.html', {
-    read: false
-  })
+      read: false
+    })
     .pipe(sitemap({
       siteUrl: 'https://www.kipreco.com.br'
     }))
