@@ -31,17 +31,4 @@ function loginController($scope, $state, $window, $http) {
     }
   }
 
-  //
-  // var apiPost = $http.post('http://localhost:8080').then(successCallback, errorCallback);
-  //
-  // function successCallback(retorno) {
-  //
-  //
-  // }
-  //
-  // function errorCallback() {
-  //   console.log('OPs');
-  //
-  // }
-
 }
