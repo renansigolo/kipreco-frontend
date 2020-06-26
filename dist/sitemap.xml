@@ -1,23 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
+        
         <loc>https://www.kipreco.com.br/</loc>
-        <lastmod>2017-09-29T04:06:43.000Z</lastmod>
+    
+        
+        <lastmod>2020-06-26T05:40:46.021Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>https://www.kipreco.com.br/templates/home.html</loc>
-        <lastmod>2017-09-29T19:05:14.685Z</lastmod>
+    
+        
+        <lastmod>2020-06-26T05:37:47.480Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>https://www.kipreco.com.br/templates/login.html</loc>
-        <lastmod>2017-09-29T19:57:40.304Z</lastmod>
+    
+        
+        <lastmod>2020-06-26T05:37:47.480Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>https://www.kipreco.com.br/templates/products.html</loc>
-        <lastmod>2017-09-29T20:53:30.109Z</lastmod>
+    
+        
+        <lastmod>2020-06-26T05:37:47.480Z</lastmod>
+    
     </url>
     <url>
+        
         <loc>https://www.kipreco.com.br/templates/signup.html</loc>
-        <lastmod>2017-09-29T15:37:23.000Z</lastmod>
+    
+        
+        <lastmod>2020-06-26T05:37:47.480Z</lastmod>
+    
     </url>
 </urlset>
